@@ -1,7 +1,7 @@
-FROM phusion/baseimage:latest
+FROM phusion/baseimage:0.9.19
 MAINTAINER Ray Walker <hello@raywalker.it>
 
-# Tell the conatiner there is no tty
+# Tell the container there is no tty
 ENV DEBIAN_FRONTEND noninteractive
 
 ENV DEFAULT_TIMEZONE Australia/Sydney

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo ${TIMEZONE:-$DEFAULT_TIMEZONE} > /etc/timezone && dpkg-reconfigure tzdata
+echo ${CONTAINER_TIMEZONE:-$DEFAULT_CONTAINER_TIMEZONE} > /etc/timezone && dpkg-reconfigure tzdata
