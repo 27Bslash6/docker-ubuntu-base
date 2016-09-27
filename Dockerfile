@@ -1,4 +1,5 @@
-FROM phusion/baseimage:latest
+FROM phusion/baseimage:0.9.18
+
 MAINTAINER Ray Walker <hello@raywalker.it>
 
 # Tell the conatiner there is no tty
