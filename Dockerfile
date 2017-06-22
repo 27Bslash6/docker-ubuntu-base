@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.19
+FROM phusion/baseimage:0.9.22
 MAINTAINER Ray Walker <hello@raywalker.it>
 
 # Tell the container there is no tty
@@ -21,4 +21,3 @@ COPY . /app
 RUN chmod +x /app/bin/*
 
 RUN ln -s /app/bin/set_timezone.sh /etc/my_init.d/00_set_timezone.sh
-
