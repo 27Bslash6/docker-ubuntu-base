@@ -1,4 +1,4 @@
-# docker-ubuntu-base
+# funkygibbon/ubuntu
 DockerHub automated daily build: https://registry.hub.docker.com/u/funkygibbon/ubuntu/
 
 Slightly modified phusion/baseimage Ubuntu base image
